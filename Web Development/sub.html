@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <link rel="stylesheet" href="styles.css">
+    <head>
+        <title>Other Page</title>
+    </head>
+    <body>
+        <header>
+            OTHER PAGE
+        </header>
+        <main>
+            This is my other page.
+            <br/>
+            <br/>
+            Your name please:
+            <br/>
+            <form id = "form1">
+                <input id = "name" placeholder = "Name" type = "text"/>
+                <input type = "submit" value = "Submit"/>
+            </form>
+            <br/>
+            <br/>
+            You may do a Google search below:
+            <br/>
+            <form id = "form2" action = "https://www.google.co.in/search" method = "get">
+                <input name = "q" placeholder = "Query" type = "text"/>
+                <input type = "submit" value = "Search"/>
+            </form>
+            <script>
+                document.getElementById("form1").onsubmit = function()
+                    {
+                        alert("Hello, " + document.getElementById("name").value + "!" + "\n" + "Please enter your search query below.");
+                        return false;
+                    }
+            </script>
+            <br/>
+            <br/>
+            Check me out! :P
+            <br/>
+            <br/>
+            <img src = "swagger.jpg"/>
+        </main>
+        <footer>
+            Copyright. OTHER PAGE.
+        </footer>
+    </body>
+</html>

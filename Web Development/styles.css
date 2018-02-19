@@ -1,0 +1,37 @@
+html
+{
+    text-align: center;
+    margin: 20px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+header
+{
+    font-weight: bold;
+    font-size: 36px;
+    border-style: solid;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: red;
+    padding: 10px;
+}
+
+main
+{
+    font-size: 28px;
+    margin: 20px;
+}
+
+footer
+{
+    font-weight: bold;
+    margin: 30px;
+}
+
+img
+{
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+}
